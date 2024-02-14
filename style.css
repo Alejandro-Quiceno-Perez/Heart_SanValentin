@@ -64,6 +64,32 @@ h1 {
   }
 }
 
+@media (max-width: 575px) and (max-height: 740px) {
+    .heart {
+        width: 140px;
+        height: 140px;
+    }
+
+    .heart::before{
+        width: 140px;
+        height: 140px;
+    }
+
+    .heart::after {
+        width: 140px;
+        height: 140px;
+    }
+
+    .container {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+    h1 {
+        font-size: 30px;
+      }
+}
+
 
 @media (max-width: 475px) and (max-height: 740px) {
     .heart {
